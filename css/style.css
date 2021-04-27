@@ -31,3 +31,14 @@ h2{
 
  }
 
+  main section ul li {
+     text-align: center;
+     font-size: 30px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ main section ol li {
+     text-align: center;
+     font-size: 30px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
