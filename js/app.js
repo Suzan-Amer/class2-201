@@ -142,55 +142,73 @@ switch(s5.toUpperCase()){
 
 alert ( userName +  '  lets play together  guessing game  ');
 
-function question6 (){
+function question6() {
+var myAge;
+var age = 0;
 
-let s6 =0;
-for (let i = 1; i < 4 ; i++) {
-  let answer = Number(prompt ('can you guess how old i am ?'));
-  if (answer === 24)
-  {
-     alert ('you answerd correctly ' );
-     score++; 
-     break;
+while (age < 4) {
+ myAge = prompt('can you guess how old i am ? (answer with number)');
+if (myAge == 24) {
+alert('you answer correctly');
+score++;
+break;
+
+} else {
+
+
+if (myAge > 24 ) { alert('too high'); } 
+else if (myAge < 24 ) { alert('too low'); }
+ else { alert('try agein'); }
+   }
   }
-  else if (answer < 24 ){
- alert('no , it is too low');
- s6++;
-  }
-  else if (answer > 24){
-    alert('no , it is too high');
-    s6++
-  }
+
+ alert (' your attempts have ended , the correct answer is 24') ;
 }
 
 
-if (ansnwer==4){
-  alert (' your attempts have ended , the correct answer is 24') ;
-}
-}
 question6();
 
 
-function question7 (){
-let favMovie = ['saw', 'it', 'call', 'final destination' ];
 
-let s7 = 0 ;
-for (let i=0 ; i < 6 ; i++ )
-{let m1 = prompt('can you guess my fav hrror movie ?' );
-m1=m1.toUpperCase();
-    if ( m1===favMovie[0] || m1===favMovie[1] || m1===favMovie[2] || m1===favMovie[3] ){
-    alert ( ' yes it is my fav movie  ' + ansnwer1 + ' whatcit you will like it ' );
-    score++;
-    break;
-}else { alert('try agin ');
-s7++;
-} 
+  
+
+
+
+function question7 (){
+
+  var movie = ['it', 'saw', 'call', 'final destinatin'];
+  var favMovie;
+  var movies = 0;
+
+
+  while (movies < 6) {
+
+ favMovie = prompt('can you Guess my hrror movies ');
+favMovie = favMovie.toLocaleLowerCase();
+if (favMovie === movie[0] || favMovie === movie[1] || favMovie === movie[2] || favMovie === movie[3]) {
+ alert('you answerd correctly');
+ score++;
+
+ break;
+
+} else {
+ 
+alert('try again');
+
+
+ }
 }
-}
-question7();
-   
-    
-if (s7==6){alert (' Your chances of guessing have expired , my favourite foods are : ' + favMovie ) ;}
+
+
+
+
+  alert(`my fav movie is ${movie}`);
+     
+      
+  
+  }
+ 
+  question7 ();
 
 
 alert ('your score is ' +  score + ' great job '+ userName );
