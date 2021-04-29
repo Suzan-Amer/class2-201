@@ -12,6 +12,7 @@ h1 {
 }
 
 nav ul li {
+    
     display: inline;
     margin: 80px;
     padding: 80px;
@@ -27,17 +28,25 @@ h2{
      text-align: center;
      font-size: 30px;
      font-family: Georgia, 'Times New Roman', Times, serif;
-     
+     line-height: 40px;
 
  }
 
   main section ul li {
+      list-style-position: inside;
      text-align: center;
      font-size: 30px;
      font-family: Georgia, 'Times New Roman', Times, serif;
  }
+ul li {
+    list-style-position: inside;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
  main section ol li {
+     list-style-position: inside;
      text-align: center;
      font-size: 30px;
      font-family: Georgia, 'Times New Roman', Times, serif;

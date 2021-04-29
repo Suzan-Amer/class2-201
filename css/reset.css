@@ -84,10 +84,10 @@ time,
 mark,
 audio,
 video {
-    margin: ;
-    padding: ;
-    border: ;
-    font-size: ;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size:0 ;
     font: inherit;
     vertical-align: baseline;
 }
@@ -115,7 +115,7 @@ body {
 
 ol,
 ul {
-    list-style:;
+    list-style:0;
 }
  
 
