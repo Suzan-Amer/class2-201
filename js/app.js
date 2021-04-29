@@ -3,25 +3,25 @@
  let score= 0; 
 
 let userName = prompt('can you enter your name ,plz?');
-console.log ('username : ' +userName);
+
 alert ('hallo ' + userName +' welcome to my page , have fun ');
 
 function question1 (){
 
 let s1=prompt ('do you think i like drawing ?');
 switch(s1.toUpperCase()){
-    case 'YES' 
-       :console.log ('yes , you do');
-    case 'Y'
-      :console.log ('yes , you do');
+    case 'YES' :
+       
+    case 'Y':
+  
     alert('yes , I do');
     score++;
     break;
     
-    case'NO'
-       :console.log('no , you dont');
-    case 'N'
-       :console.log ('no , you dont');
+    case'NO':
+     
+    case 'N':
+       
     alert ('no ,I dont');
     break;
     
@@ -36,18 +36,17 @@ question1();
 function question2 (){
 let s2=prompt ('do I speak spanish ?');
 switch(s2.toUpperCase()){
-    case 'YES' 
-       :console.log ('yes , you do');
-    case 'Y'
-       :console.log ('yes , you do');
+    case 'YES' :
+    case 'Y':
+       
    alert('yes , I do');
     score++;
     break;
     
-    case'NO'
-       :console.log('no , you dont');
-    case 'N'
-       :console.log ('no , you dont');
+    case'NO':
+    
+    case 'N':
+       
    alert ('no ,I dont');
     break;
     
@@ -61,18 +60,17 @@ question2();
 function question3 (){
 let s3=prompt ('AM I traind as carpentry?');
 switch(s3.toUpperCase()){
-    case 'YES' 
-        :console.log ('yes , you do');
-    case 'Y'
-       :console.log ('yes , you do');
+    case 'YES': 
+        
+    case 'Y':
+      
     
     alert('yes , I do');
     score++;
     break;
     
-    case'NO':console.log('no , you dont');
-    case 'N':console.log ('no , you dont');
-    alert ('no ,I dont');
+    case'NO':
+    case 'N':
     break;
     
     default: 
@@ -88,18 +86,18 @@ function question4 (){
 
 let s4=prompt ('AM I good at crafts ?');
 switch(s4.toUpperCase()){
-    case 'YES' 
-         :console.log ('yes , you do');
-    case 'Y'
-        :console.log ('yes , you do');
+    case 'YES' :
+         
+    case 'Y':
+        
    alert('yes , I do');
    score++;
     break;
     
-    case'NO'
-        :console.log('no , you dont');
-    case 'N'
-       :console.log ('no , you dont');
+    case'NO':
+       
+    case 'N':
+       
     alert ('no ,I dont');
     break;
     
@@ -115,18 +113,15 @@ question5();
 function question5 (){
 let s5=prompt ('did i study at aabu unversity ?');
 switch(s5.toUpperCase()){
-    case 'YES' 
-        :console.log ('yes , you do');
-    case 'Y'
-       :console.log ('yes , you do');
+    case 'YES' :
+    case 'Y':
    alert('yes , I do');
    score++;
     break;
     
-    case'NO'
-        :console.log('no , you dont');
-    case 'N'
-        :console.log ('no , you dont');
+    case'NO':  
+    case 'N':
+       
     alert ('no ,I dont');
     score++;
     break;
@@ -162,7 +157,7 @@ else if (myAge < 24 ) { alert('too low'); }
    }
   }
 
- alert (' your attempts have ended , the correct answer is 24') ;
+ alert ('  the correct answer is 24') ;
 }
 
 
@@ -211,6 +206,6 @@ alert('try again');
   question7 ();
 
 
-alert ('your score is ' +  score + ' great job '+ userName );
+alert ('your score is ' +  score + 'of  7 great job '+ userName );
 
-alert ('Thank you  ' +  userName  +  'have a nice day ' );
+alert ('Thank you  ' +  userName  +  ' have a nice day ' );
